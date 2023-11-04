@@ -1,0 +1,4 @@
+module CXXLibrary {
+  header "identity.h"
+  export *
+}

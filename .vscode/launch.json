@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-docker-example}",
+            "name": "Debug executable",
+            "program": "${workspaceFolder:swift-docker-example}/.build/debug/executable",
+            "preLaunchTask": "swift: Build Debug executable"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-docker-example}",
+            "name": "Release executable",
+            "program": "${workspaceFolder:swift-docker-example}/.build/release/executable",
+            "preLaunchTask": "swift: Build Release executable"
+        }
+    ]
+}

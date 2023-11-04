@@ -1,0 +1,4 @@
+Name: CLibrary
+Functions:
+- Name: int16_identity
+  SwiftName: int16Identity(_:)

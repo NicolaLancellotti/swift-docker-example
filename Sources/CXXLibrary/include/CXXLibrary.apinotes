@@ -1,0 +1,4 @@
+Name: CXXLibrary
+Functions:
+- Name: int32_identity
+  SwiftName: int32Identity(_:)
